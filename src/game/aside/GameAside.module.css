@@ -1,0 +1,29 @@
+.aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttonGroup {
+  display: grid;
+  grid-auto-flow: column;
+  column-gap: var(--regular-offset);
+}
+
+.activeButton {
+  background-color: rgb(91, 91, 224);
+  color: #fff;
+}
+
+.buttonName {
+  font-size: 1.5rem;
+}
+
+.input {
+  margin: var(--double-offset) 0;
+  width: 100%;
+}
+
+.cards {
+  width: 260px;
+}

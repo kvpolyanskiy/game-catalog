@@ -1,0 +1,11 @@
+:root {
+  --main-blue-color: #3131ca;
+  --border-color: #a9a9a9;
+  --regular-font-size: 2rem;
+  --regular-offset: 2rem;
+  --double-offset: 4rem;
+  --small-offset: 1rem;
+  --card-width: 190px;
+  --small-card-width: 120px;
+  --tablet-portrait-max-width: 768px;
+}

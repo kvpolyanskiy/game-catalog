@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 120px;
+}
+
+.title {
+  flex: 1 1 30%;
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+  }
+}

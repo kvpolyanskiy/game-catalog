@@ -1,0 +1,23 @@
+@import "~reset-css/reset.css";
+@import "./variables.css";
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  /* 1 rem = 10px; 10px/16px = 62.5% */
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:visited {
+  color: inherit;
+}

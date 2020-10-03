@@ -1,0 +1,11 @@
+.categories {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(var(--card-width), 1fr));
+  gap: var(--double-offset) var(--regular-offset);
+  justify-items: center;
+}
+
+.small {
+  grid-template-columns: repeat(auto-fill, var(--small-card-width));
+  row-gap: var(--regular-offset);
+}

@@ -1,0 +1,16 @@
+.details {
+  margin-bottom: var(--double-offset);
+}
+.header {
+  display: flex;
+  margin-bottom: var(--regular-offset);
+}
+
+.image {
+  margin-right: var(--regular-offset);
+  object-fit: contain;
+}
+
+.title {
+  margin-bottom: var(--regular-offset);
+}

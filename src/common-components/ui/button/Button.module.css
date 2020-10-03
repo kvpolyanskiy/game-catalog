@@ -1,0 +1,29 @@
+.button {
+  align-items: center;
+  border: 1px solid var(--border-color);
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  outline: none;
+  padding: 0;
+  text-align: center;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 4px;
+  font-size: var(--regular-font-size);
+}
+
+.large {
+  height: 5rem;
+  min-width: 20rem;
+  width: 20rem;
+}
+
+.small {
+  height: 3.5rem;
+  min-width: 6rem;
+}
+
+.wrapContent {
+  height: 100%;
+}

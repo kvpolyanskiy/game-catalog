@@ -33,15 +33,19 @@ module.exports = {
   },
   rules: {
     "react/jsx-filename-extension": ["error", { extensions: [".tsx"] }],
+    "react/jsx-props-no-spreading": "off",
+    "react/prop-types": "off",
     "no-use-before-define": "off",
     "import/prefer-default-export": "off",
     "@typescript-eslint/no-use-before-define": ["error"],
+    "no-shadow": "off",
+    "@typescript-eslint/no-shadow": "error",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
     "import/extensions": [
       "error",
       "ignorePackages",
       {
         js: "never",
-        jsx: "never",
         ts: "never",
         tsx: "never",
       },

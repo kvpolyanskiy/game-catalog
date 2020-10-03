@@ -1,0 +1,35 @@
+.card {
+  width: var(--card-width);
+  background-color: #deb887;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.card.smallCard {
+  width: var(--small-card-width);
+  background-color: transparent;
+}
+.card:not(:last-child) {
+  margin-right: var(--regular-offset);
+}
+
+.image {
+  width: 100%;
+  object-fit: contain;
+}
+
+.caption {
+  height: 45px;
+  padding: 10px;
+}
+
+.title {
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.button {
+  border: none;
+}

@@ -1,0 +1,8 @@
+.button:not(:last-child) {
+  margin-right: var(--small-offset);
+  margin-bottom: var(--small-offset);
+}
+
+.notActive {
+  background-color: #a09d9d;
+}

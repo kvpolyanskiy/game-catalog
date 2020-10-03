@@ -1,0 +1,17 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5rem;
+  margin-right: auto;
+  margin-left: var(--double-offset);
+}
+
+.link:not(:last-child) {
+  margin-bottom: var(--regular-offset);
+}
+
+@media (max-width: 768px) {
+  .list {
+    margin: var(--regular-offset) 0;
+  }
+}

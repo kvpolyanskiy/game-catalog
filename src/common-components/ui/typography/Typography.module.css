@@ -1,0 +1,21 @@
+.pageHeader {
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+.sectionHeader {
+  font-size: 3.6rem;
+  color: var(--main-blue-color);
+}
+
+.subheader {
+  font-size: 3rem;
+}
+
+.paragraph {
+  font-size: var(--regular-font-size);
+}
+
+.cardCaption {
+  font-size: 2rem;
+}
